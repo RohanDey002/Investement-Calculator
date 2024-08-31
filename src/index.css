@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html{
+  color: white;
+  background: radial-gradient(#a5a9e4,#a5beda);
+  text-align: center;
+  min-height: 100vh;
+}
+
+#header img{
+  object-fit: contain;
+  width: 15rem;
+  margin: 1.7rem auto;
+
+}
+#header h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  margin: 0;
+}
+#user-input{
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 50rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(rgb(129, 129, 10),rgb(161, 161, 21));
+  filter: drop-shadow(0 0 0.35rem black);
+}
+.input-group{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+#user-input label{
+  display: block;
+  margin: 0.30rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#user-input input{
+  width: 100%;
+  padding: 0.5rem;
+  border: 0.2rem solid #70700e;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+#result-data{
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+#result-data thead {
+  font-size: 3.5rem;
+  color: #535509;
+}
+
+#result-data tbody {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3rem;
+  color: #8a820b;
+  font-weight: bold;
+}
+
+.center {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #8a820b;
+}
